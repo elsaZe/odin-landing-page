@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 16px 150px;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    gap: 16px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top {
+    display: flex;
+    background-color: #1f2937;
+    padding: 75px 150px;
+    gap: 48px;
+
+}
+
+.top-title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.top-content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-right {
+    width: 300px;
+    height: 200px;
+    background-color: #3882F6;
+    flex: 1 1 auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 48px;
+}
+.boxes {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 170px;
+    width: 170px;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+
+.subtext {
+    width: 170px;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 48px 300px;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+.author {
+    color: #1F2937;
+    font-size: 36px;
+    margin-left: auto;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    Color: #E5E7EB;
+    margin: 75px 150px;
+    padding: 48px;
+    justify-content: space-between;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-words {
+    font-size: 18px;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    padding: 16px;
+}
